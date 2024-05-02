@@ -6,7 +6,7 @@
 }
 
 .personContainer {
-  height: 420px;
+  height: 390px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -14,17 +14,6 @@
   padding: 25px;
   background-color: #fff;
   box-shadow: var(--boxShadowSections);
-}
-
-.personContainer2 {
-  height: 420px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 25px;
-  border-radius: 8px;
-  gap: 28px;
-  background-color: #fff;
 }
 
 .firstDivPerson {
@@ -44,7 +33,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 30px;
+  gap: 20px;
 }
 
 .imagesDiv {
@@ -65,7 +54,7 @@
 }
 
 .imagesDiv:hover {
-  transition: 0.3s ease-in-out;
+  transition: .3s;
   transform: translateX(0) scale(1.1);
   color: var(--pinkMain);
   cursor: pointer;
